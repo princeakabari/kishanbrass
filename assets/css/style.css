@@ -66,6 +66,7 @@
 .row > * {
   padding-right: 15px;
   padding-left: 15px;
+  
 }
 
 .row.gx-0 > * {
@@ -4631,10 +4632,10 @@ textarea {
 }
 
 .section-title-3 p {
-  color: #7e7e7e;
+  color: #020202;
   font-size: 16px;
   margin: 20px auto 0;
-  width: 46%;
+  width: 90%;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -5132,7 +5133,7 @@ textarea {
   }
 }
 
-.home-single-product-img {
+.home-single- {
   margin-left: 70px;
   overflow: hidden;
 }
@@ -7059,8 +7060,8 @@ textarea {
 
 .copyright p {
   margin: 0;
-  color: #333;
-  font-weight: 300;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -7084,8 +7085,8 @@ textarea {
 }
 
 .copyright p a {
-  color: #4200ad;
-  font-weight: 500;
+  color: #4a00c0;
+  font-weight: 800;
   margin-left: 5px;
 }
 
@@ -9922,6 +9923,11 @@ textarea {
 
 .map iframe {
   height: 500px;
+  width: 100%;
+}
+
+.cont iframe{
+  height: 1280px;
   width: 100%;
 }
 
