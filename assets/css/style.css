@@ -454,10 +454,10 @@ textarea {
 #scrollUp {
   width: 50px;
   height: 50px;
-  background-color: #262626;
+  background-color: #000000;
   color: #fff;
-  right: 30px;
-  bottom: 53px;
+  right: 25px;
+  bottom: 70px;
   text-align: center;
   overflow: hidden;
   border-radius: 50px;
@@ -1064,10 +1064,11 @@ textarea {
 
 .main-menu > nav > ul > li > a {
   color: #000000;
-  font-weight: 500;
+  font-weight: 800;
   line-height: 80px;
   display: inline-block;
   position: relative;
+  font-size: 16px;
 }
 
 .main-menu > nav > ul > li > a::after {
@@ -11848,14 +11849,14 @@ textarea {
 }
 .price-sec .price-table .card{
 	position: relative;
-	max-width:300px;
+	max-width:270px;
 	height:auto;
-	background: linear-gradient(-45deg, #fe0847, #feae3f);
+	
 	border-radius:15px;
 	margin: 0 auto;
-	padding: 40px 20px;
-	box-shadow:0 10px 15px rgba(0,0,0,.5);
-	transition: .5s;
+	padding: 15px 20px;
+	box-shadow: 0 10px 15px rgb(117 220 255 / 25%);
+	transition: .4s;
 	overflow: hidden;
 }
 .price-sec .price-table .card:hover{
@@ -11864,19 +11865,17 @@ textarea {
 
 .price-table:nth-child(1) .card,
 .price-table:nth-child(1) .card .title i{
-		background: linear-gradient(-45deg, #f403d1, #64b5f6);
+		background-color: white;
 
 }
 .price-table:nth-child(2) .card,
 .price-table:nth-child(2) .card .title i{
-		background: linear-gradient(-45deg, #fe6c61, #f321d7);
-
+	
 }
 
 .price-table:nth-child(3) .card,
 .price-table:nth-child(3) .card .title i{
-		background: linear-gradient(-45deg, #24ff72, #9a4eff);
-
+		
 }
 .price-table .card:before{
 	content: "";
@@ -11905,7 +11904,7 @@ textarea {
 	position: relative;
 	margin:20px 0 0;
 	padding: 0;
-	color:#fff;
+	color:rgb(0 0 0);
 	font-size: 28px;
 	z-index: 2;
 }
